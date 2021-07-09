@@ -83,10 +83,6 @@ fieldset:nth-child(3) input{
 }
 
 button{
-
-}
-
-button{
     padding: 1.5%;
     background-color: lightgrey;
     border: 2px solid transparent;
