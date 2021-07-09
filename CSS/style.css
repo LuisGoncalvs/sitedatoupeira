@@ -48,7 +48,7 @@ legend{
 }
 
 form{
-    background-color: rgba(255, 255, 255, 0.616);
+    background-color: brown;
     position: relative;
     top: 15px;
     margin: none;
@@ -57,7 +57,7 @@ form{
 
 input:hover{
     transform: scale(1.1);
-    background-color: rgba(61, 226, 157, 0.644);
+    background-color: brown;
     color: #fff;
 }
 
