@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/imagem/3196599.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    text-align: center;
+    animation: mainAnimation 3s;
+}
+
+
+@keyframes mainAnimation{
+    from{
+        transform: scale(0) translateY(-100%);
+    }
+    to{
+        transform: scale(100%)  translateY(0%);
+    }
+}
+
+.container{
+    padding: 0% 30%;
+}
+
+
+/* Coloquei a imagem so porque uns amigos pediram, ignore */
+img{
+    border-radius: 20%;
+    width: 40%;
+    transition: all 0.5s ease-in-out;
+    animation: imageRotate 2s infinite;
+}
+
+@keyframes imageRotate {
+    from{
+        transform: rotate(0deg) scale(1);
+    }
+   
+    to{
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+legend{
+    text-align: center;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.616);
+    position: relative;
+    top: 15px;
+    margin: none;
+    border: none;
+}
+
+input:hover{
+    transform: scale(1.1);
+    background-color: rgba(61, 226, 157, 0.644);
+    color: #fff;
+}
+
+input{
+    padding: 1%;
+    margin-bottom: 10px;
+    width: 83.3%;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+fieldset label{
+    display: block;
+    margin-bottom: 1.5%;
+}
+
+fieldset:last-of-type{
+    margin-bottom: 15px;
+}
+
+fieldset:nth-child(3) input{
+    width: 40%;
+}
+
+button{
+
+}
+
+button{
+    padding: 1.5%;
+    background-color: lightgrey;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 1.5%;
+}
+
+button:hover{
+    background-color: rgba(61, 226, 157, 0.644);
+    
+}
